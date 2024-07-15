@@ -1,0 +1,14 @@
+THIS NEEDS AN UPDATE
+
+
+CREATE DATABASE podcast_directory;
+
+USE podcast_directory;
+
+CREATE TABLE podcasts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    rss_feed_url VARCHAR(255) NOT NULL,
+    artwork_local_url VARCHAR(255),
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
