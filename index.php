@@ -1,10 +1,15 @@
-
 <?php
 // get a taddy api user and api key
 // create a config.php in this style:
 // $taddy_user = 'xxxxx';
 // $taddy_api_key = 'xxxxx';
-
+//
+// config should also include you db config in this style:
+//$servername = "xxxxx";
+//$username = "xxxxx";
+//$password = "xxxxx";
+//$dbname = "xxxxx";
+//
 require "config.php";
 
 // Create connection
